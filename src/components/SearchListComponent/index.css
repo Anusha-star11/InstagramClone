@@ -1,0 +1,88 @@
+.FailureContainer {
+  width: 1040px;
+  height: 866px;
+  top: 258px;
+  left: 200px;
+  border-radius: 4px, 4px, 0px, 0px;
+
+  background-image: linear-gradient(0deg, #dbdbdb, #dbdbdb),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border: 1px solid #dbdbdb;
+}
+
+.alertImage {
+  width: 48px;
+  height: 48px;
+  top: 599px;
+  left: 697px;
+  padding: 4px, 2px, 6px, 2px;
+}
+
+.failureMsg {
+  width: 286px;
+  height: 24px;
+  top: 663px;
+  left: 577px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+.tryAgainBtn {
+  width: Hug (102px);
+  height: Hug (32px);
+  top: 703px;
+  left: 669.5px;
+}
+.SearchListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  margin-left: 100px;
+}
+.searchResultsHeading {
+  width: 161px;
+  height: 32px;
+  top: 112px;
+  margin-left: 200px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+.SearchNotFound_contianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.SearchNotFound {
+  width: 500px;
+  height: 409px;
+  margin-top: 240px;
+}
+.searchNotFoundHeading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #262626;
+}
+.searchNotFoundParagraph {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #989898;
+}

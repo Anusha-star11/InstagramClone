@@ -1,0 +1,91 @@
+.LoginContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ImageContainer {
+  height: 373px;
+  width: 582px;
+  margin-left: 160px;
+  margin-top: 190px;
+}
+.Container2 {
+  height: 458px;
+  width: 456px;
+  /* margin-left: 10px; */
+  margin-top: 183px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 20px 20px 0 rgba(0.19, 0.19, 0.19, 0.2),
+    0 6px 20px 0 rgba(0.19, 0.19, 0, 0.19);
+}
+.logoImage {
+  height: 42px;
+  width: 82px;
+  top: 114px;
+  left: 167px;
+}
+.InstaHeading {
+  width: 122px;
+  height: 32px;
+  margin-top: 14px;
+  margin-bottom: 30px;
+  left: 167px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.UsernameContainer {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 64px;
+  top: 194px;
+  left: 48px;
+  margin-bottom: 10px;
+}
+label {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  /* background: #262626; */
+  width: 65px;
+  height: 16px;
+}
+input {
+  height: 30px;
+  background: #eeeeee;
+  margin-top: 5px;
+}
+button {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #4094ef;
+  color: #ffffff;
+}
+.errorMsg {
+  color: red;
+  font-family: 'Roboto';
+}

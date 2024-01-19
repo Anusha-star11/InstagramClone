@@ -1,0 +1,16 @@
+.ProfilePage_Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  /* width: 1440px; */
+  height: 2086px;
+  /* align-items: center; */
+}
+.ProfilePage_Body_Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  width: 1440px;
+  height: 2086px;
+  align-items: center;
+}

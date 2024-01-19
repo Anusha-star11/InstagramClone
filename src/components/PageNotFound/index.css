@@ -1,0 +1,40 @@
+.PageNotFound_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pageNotFoundImage {
+  width: 269px;
+  height: 297px;
+  top: 235px;
+  left: 586px;
+  padding: 0px, 0px, 0px, 0px;
+}
+.PNFHeading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #262626;
+}
+.PNFParagraph {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #989898;
+}
+.HomeBTN {
+  width: Hug (141px);
+  height: Hug (48px);
+  top: 740px;
+  left: 650px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
